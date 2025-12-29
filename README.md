@@ -70,11 +70,17 @@ Use these to test the application's prediction capabilities!
 
 ## 📸 Screenshots
 
-_Screenshots will be added to the `screenshots/` folder showcasing:_
-- Dashboard interface
-- Upload functionality
-- Prediction results
-- Grad-CAM visualizations
+### Dashboard Interface
+![Dashboard](screenshots/dashboard.png)
+
+### Upload Section
+![Upload Interface](screenshots/upload.png)
+
+### Prediction Results
+![Prediction Results](screenshots/prediction.png)
+
+### Results Display
+![Results Display](screenshots/results.png)
 
 ---
 
