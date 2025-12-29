@@ -65,7 +65,7 @@ In **Environment Variables** section:
 
 ### Step 4: Deploy
 1. Click **"Deploy"**
-2. Wait 2-3 minutes
+2. Wait 2-3 minutesz
 3. Your app will be live at: `https://your-project.vercel.app`
 
 ---
