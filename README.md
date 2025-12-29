@@ -57,6 +57,25 @@ run.bat
 - ⚙️ Backend API: http://localhost:8000
 - 📚 API Docs: http://localhost:8000/docs
 
+### 🖼️ Test Samples
+
+Want to try the system without finding your own MRI scans? We've included sample brain MRI images in the `test-samples/` folder:
+
+- **test-samples/tumor/**: Sample MRI scans with tumors
+- **test-samples/non-tumor/**: Sample MRI scans without tumors
+
+Use these to test the application's prediction capabilities!
+
+---
+
+## 📸 Screenshots
+
+_Screenshots will be added to the `screenshots/` folder showcasing:_
+- Dashboard interface
+- Upload functionality
+- Prediction results
+- Grad-CAM visualizations
+
 ---
 
 ## 📁 Project Structure
@@ -89,6 +108,10 @@ PROJECT/
 │   │   ├── Training/           # Training images
 │   │   └── Testing/            # Test images
 │   └── processed/               # Processed data
+├── test-samples/                 # Sample MRI scans for testing
+│   ├── tumor/                   # Tumor samples
+│   └── non-tumor/               # Non-tumor samples
+├── screenshots/                  # Project screenshots
 ├── Documentation/                # Project documentation
 ├── setup.bat                     # Setup script
 ├── run.bat                       # Run script
