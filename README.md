@@ -73,14 +73,14 @@ Use these to test the application's prediction capabilities!
 ### Dashboard Interface
 ![Dashboard](screenshots/dashboard.png)
 
-### Upload Section
-![Upload Interface](screenshots/upload.png)
+### Results Display
+![Results Display](screenshots/results.png)
 
 ### Prediction Results
 ![Prediction Results](screenshots/prediction.png)
 
-### Results Display
-![Results Display](screenshots/results.png)
+### Performance Metrics
+![Performance Metrics](screenshots/performance.png)
 
 ---
 
