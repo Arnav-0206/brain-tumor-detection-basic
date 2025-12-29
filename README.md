@@ -155,8 +155,8 @@ PROJECT/
 
 #### Step 1: Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd PROJECT
+git clone https://github.com/Arnav-0206/brain-tumor-detection-basic.git
+cd brain-tumor-detection-basic
 ```
 
 #### Step 2: Setup Backend
@@ -210,12 +210,22 @@ npm run dev
 
 For more detailed information, check out:
 
-- [Backend Setup Guide](backend/SETUP.md) - Detailed backend setup
-- [API Guide](backend/API_GUIDE.md) - API endpoint documentation
+### Quick Start
+- [Scripts Guide](SCRIPTS.md) - Setup and run scripts
+- [Dataset Guide](data/DATASET_GUIDE.md) - Download and prepare dataset
+
+### Backend
+- [Backend Setup](backend/SETUP.md) - Detailed backend setup
+- [API Guide](backend/API_GUIDE.md) - API endpoints documentation
+- [Backend README](backend/README.md) - Backend overview
+
+### Frontend  
 - [Frontend README](frontend/README.md) - Frontend documentation
-- [Scripts Guide](SCRIPTS.md) - Helper scripts usage
-- [Dataset Guide](data/DATASET_GUIDE.md) - Dataset information
-- [Complete Overview](Documentation/COMPLETE_PROJECT_OVERVIEW.md) - Full project details
+
+### Technical Details
+- [Complete Overview](Documentation/COMPLETE_PROJECT_OVERVIEW.md) - Full project architecture
+- [Technical Documentation](Documentation/DETAILED_TECHNICAL_DOCUMENTATION.md) - In-depth technical details
+- [Quick Reference](Documentation/QUICK_REFERENCE.md) - Quick command reference
 
 ---
 
