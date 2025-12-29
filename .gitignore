@@ -64,3 +64,6 @@ htmlcov/
 # Temporary files
 *.tmp
 *.temp
+
+# Private Documentation (internal use only)
+Documentation/

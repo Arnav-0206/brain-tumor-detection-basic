@@ -102,7 +102,6 @@ PROJECT/
 │   ├── tumor/                   # Tumor samples
 │   └── non-tumor/               # Non-tumor samples
 ├── project-screenshots/          # Project screenshots
-├── Documentation/                # Project documentation
 ├── setup.bat                     # Setup script
 ├── run.bat                       # Run script
 └── README.md                     # This file
@@ -221,24 +220,13 @@ npm run dev
 
 ## 📚 Documentation
 
-For more detailed information, check out:
+For setup and usage information:
 
-### Quick Start
 - [Scripts Guide](SCRIPTS.md) - Setup and run scripts
 - [Dataset Guide](data/DATASET_GUIDE.md) - Download and prepare dataset
-
-### Backend
-- [Backend Setup](backend/SETUP.md) - Detailed backend setup
-- [API Guide](backend/API_GUIDE.md) - API endpoints documentation
-- [Backend README](backend/README.md) - Backend overview
-
-### Frontend  
-- [Frontend README](frontend/README.md) - Frontend documentation
-
-### Technical Details
-- [Complete Overview](Documentation/COMPLETE_PROJECT_OVERVIEW.md) - Full project architecture
-- [Technical Documentation](Documentation/DETAILED_TECHNICAL_DOCUMENTATION.md) - In-depth technical details
-- [Quick Reference](Documentation/QUICK_REFERENCE.md) - Quick command reference
+- [Backend Setup](backend/SETUP.md) - Backend installation
+- [API Documentation](backend/API_GUIDE.md) - API endpoints
+- [Frontend README](frontend/README.md) - Frontend overview
 
 ---
 
