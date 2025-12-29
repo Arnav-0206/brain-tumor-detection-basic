@@ -72,39 +72,13 @@ Use these to test the application's prediction capabilities!
 
 ```
 PROJECT/
-├── backend/                      # FastAPI + PyTorch backend
-│   ├── app/                     # API application
-│   │   ├── main.py             # FastAPI app entry point
-│   │   ├── config.py           # Configuration
-│   │   └── routers/            # API endpoints
-│   ├── ml/                      # ML models & training
-│   │   ├── models/             # Model architectures
-│   │   ├── training/           # Training scripts
-│   │   ├── inference/          # Inference pipeline
-│   │   ├── data/               # Data loaders
-│   │   ├── explainability/     # Grad-CAM implementation
-│   │   └── checkpoints/        # Saved model weights
-│   ├── scripts/                 # Utility scripts
-│   └── requirements.txt         # Python dependencies
-├── frontend/                     # React + TypeScript frontend
-│   ├── src/
-│   │   ├── components/          # React components
-│   │   ├── utils/               # Utility functions
-│   │   └── App.tsx              # Main app
-│   ├── package.json             # Node dependencies
-│   └── vite.config.ts           # Vite configuration
-├── data/                         # Datasets
-│   ├── raw/                     # Original dataset
-│   │   ├── Training/           # Training images
-│   │   └── Testing/            # Test images
-│   └── processed/               # Processed data
-├── test-samples/                 # Sample MRI scans for testing
-│   ├── tumor/                   # Tumor samples
-│   └── non-tumor/               # Non-tumor samples
-├── project-screenshots/          # Project screenshots
-├── setup.bat                     # Setup script
-├── run.bat                       # Run script
-└── README.md                     # This file
+├── backend/              # FastAPI + PyTorch ML backend
+├── frontend/             # React + TypeScript UI
+├── data/                 # Training and testing datasets
+├── test-samples/         # Sample MRI scans for testing
+├── setup.bat             # One-command setup script
+├── run.bat               # Application launcher
+└── README.md             # Documentation
 ```
 
 ---
