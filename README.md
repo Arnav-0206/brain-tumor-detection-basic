@@ -68,22 +68,6 @@ Use these to test the application's prediction capabilities!
 
 ---
 
-## 📸 Screenshots
-
-### Dashboard Interface
-![Dashboard](screenshots/dashboard.png)
-
-### Results Display
-![Results Display](screenshots/results.png)
-
-### Prediction Results
-![Prediction Results](screenshots/prediction.png)
-
-### Performance Metrics
-![Performance Metrics](screenshots/performance.png)
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -117,7 +101,7 @@ PROJECT/
 ├── test-samples/                 # Sample MRI scans for testing
 │   ├── tumor/                   # Tumor samples
 │   └── non-tumor/               # Non-tumor samples
-├── screenshots/                  # Project screenshots
+├── project-screenshots/          # Project screenshots
 ├── Documentation/                # Project documentation
 ├── setup.bat                     # Setup script
 ├── run.bat                       # Run script
