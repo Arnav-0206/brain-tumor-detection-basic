@@ -1,0 +1,21 @@
+# Minimal requirements for deployment testing
+# Full ML functionality requires paid tier
+
+# Core API only
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Note: PyTorch and ML packages removed for free tier deployment
+# To enable ML inference, upgrade to Render paid plan and uncomment below:
+# torch==2.1.0
+# torchvision==0.16.0
+# timm==0.9.12
+# pillow==10.2.0
+# opencv-python-headless==4.9.0.80
+# numpy==1.26.3
+# scikit-learn==1.4.0
+# albumentations==1.3.1
